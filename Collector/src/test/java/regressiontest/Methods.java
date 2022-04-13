@@ -396,7 +396,7 @@ String nmaemom=name.getText();
 driver.findElement(Locators.path).click();
 
 List<WebElement> products = driver.findElements(Locators.grid);
-int size =products.size();
+//int size =products.size();
 String namemom2=products.get(2).getText();
 if(nmaemom==namemom2) {
 System.out.println("Afer succesfull delist , it isremoved from forsale tab and displayed in collected tab");
